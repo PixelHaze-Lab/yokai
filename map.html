@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>ひみつの妖怪通信 | 全国妖怪MAP</title>
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/map.css" rel="stylesheet">
+	<link rel="icon" href="favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div id="custom-cursor"> <img id="custom-cursor-img" src="images/mouse.png" alt="Custom Cursor">
+	</div>
+	<canvas id="blueFireCanvas">
+	</canvas>
+	<div id="loading">
+		<div class="kvArea" id="loading_box">
+			<div class="img_box"><img src="images/loading_5.png" alt="" class="fadeUp"></div>
+		</div>
+	</div>
+	<div id="container">
+		<header>
+			<div id="header_wrapper">
+				<div id="header_logo">
+					<a href="index.html"><img src="images/logo_youkai_v2.png"></a>
+				</div>
+				<nav>
+					<ul id="nav_menu">
+						<li class="nav-item"><a href="index.html">TOP</a>
+							<img src="images/hitotsumekozo2.png" alt="一つ目小僧" class="yokai yokai-hitotsume">
+						</li>
+						<li class="nav-item"><a href="history.html">妖怪の歴史</a><img src="images/nurikabe.png" alt="ぬりかべ"
+								class="yokai yokai-nurikabe"></li>
+						<li class="nav-item"><a href="map.html">全国妖怪MAP</a><img src="images/ittanmomen.png" alt="一反木綿"
+								class="yokai yokai-ittanmomen"></li>
+						<li class="nav-item"><a href="shindan.html">妖怪診断</a><img src="images/rokurokubi.png" alt="ろくろ首"
+								class="yokai yokai-rokurokubi"></li>
+					</ul>
+				</nav>
+				<div id="hamburger" class="hamburger">
+					<span></span><span></span><span></span>
+				</div>
+			</div><!--header_wrapper-->
+		</header>
+		<div id="midashi">
+			<div id="midashi_wrapper">
+				<h1><img src="images/map/map_logo_v2.png"></h1>
+			</div>
+		</div><!--midashi-->
+		<main>
+			<div id="japan_map">
+				<p><img src="images/map/japan.png"></p>
+				<div id="hokkaido">
+					<ul class="youkai_chihou">
+						<li class="youkai_icon">
+							<a href="hokkaido.html">
+								<img src="images/map/koropokkuru.png">
+							</a>
+						</li>
+						<li class="chihou">北海道</li>
+					</ul>
+				</div>
+				<div id="touhoku">
+					<ul class="youkai_chihou">
+						<li class="youkai_icon">
+							<a href="touhoku.html">
+								<img src="images/map/kappa.png">
+							</a>
+						</li>
+						<li class="chihou">東北地方</li>
+					</ul>
+				</div>
+				<div id="kantou">
+					<ul class="youkai_chihou">
+						<li class="youkai_icon">
+							<a href="kantou.html">
+								<img src="images/map/oitekebori.png">
+							</a>
+						</li>
+						<li class="chihou">関東地方</li>
+					</ul>
+				</div>
+				<div id="chubu">
+					<ul class="youkai_chihou">
+						<li class="youkai_icon">
+							<a href="chubu.html">
+								<img src="images/map/amanojyaku.png">
+							</a>
+						</li>
+						<li class="chihou">中部地方</li>
+					</ul>
+				</div>
+				<div id="kinki">
+					<ul class="youkai_chihou">
+						<li class="youkai_icon">
+							<a href="kinki.html">
+								<img src="images/map/shusendouji.png">
+						</li>
+						</a>
+						<li class="chihou">近畿地方</li>
+					</ul>
+				</div>
+				<div id="chugoku">
+					<ul class="youkai_chihou">
+						<li class="youkai_icon">
+							<a href="cyuugoku.html">
+								<img src="images/map/yamatanoorochi_aura.png">
+						</li>
+						</a>
+						<li class="chihou">中国地方</li>
+					</ul>
+				</div>
+				<div id="shikoku">
+					<ul class="youkai_chihou">
+						<li class="youkai_icon">
+							<a href="shikoku.html">
+								<img src="images/map/inugami.png">
+							</a>
+						</li>
+						<li class="chihou">四国地方</li>
+					</ul>
+				</div>
+				<div id="kyushu">
+					<ul class="youkai_chihou">
+						<li class="youkai_icon">
+							<a href="kyushu.html">
+								<img src="images/map/amabie.png">
+							</a>
+						</li>
+						<li class="chihou">九州地方</li>
+					</ul>
+				</div>
+			</div><!--japan_map-->
+		</main>
+		<footer>
+			<p>&copy;2025 ひみつの妖怪通信</p>
+		</footer>
+	</div> <!--container-->
+	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+	<script src="js/loading.js"></script>
+	<script src="js/layout.js"></script>
+	<script src="js/hmenu.js"></script>
+	<script src="js/mouse.js"></script>
+</body>
+
+</html>

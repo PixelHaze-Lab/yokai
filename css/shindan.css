@@ -1,0 +1,263 @@
+@charset "utf-8";
+
+main {
+	height: 90vh;
+	overflow-y: auto !important;
+}
+
+@media screen and (min-height: 780px) {
+	main {
+		height: 81vh;
+	}
+}
+
+main::-webkit-scrollbar {
+	display: none;
+}
+
+.choose_box {
+	position: relative;
+	width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+	.choose_box {
+		top: 10vh;
+	}
+}
+
+.choose_box p {
+	margin-top: 5%;
+	margin-bottom: 10%;
+	font-size: 20px;
+	display: block;
+	font-weight: 600;
+	text-align: center;
+}
+
+.choose_box li {
+	display: block;
+	width: 50%;
+	margin: 2% auto;
+	list-style: none;
+}
+
+@media screen and (max-width: 450px) {
+	.choose_box li {
+		width: 60%;
+		margin: 6% auto;
+	}
+}
+
+ul {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.choose_box ul li a {
+	width: 100%;
+	margin: 0 auto;
+	color: #fff;
+	display: block;
+	padding: 10px 20px;
+	text-align: center;
+	background-color: #745399;
+	font-weight: 600;
+	font-size: 1rem;
+	text-decoration: none;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.choose_box ul li a:hover {
+	background-color: #fff;
+	color: #ff3300;
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-o-transition: 0.7s;
+	transition: 0.7s;
+}
+
+#shindan_logo {
+	width: 40%;
+	min-width: 270px;
+	margin: 8% auto 5%;
+}
+
+@media screen and (min-height: 780px) {
+	#shindan_logo {
+		margin: 2% auto 5%;
+	}
+}
+
+.fit {
+	position: absolute;
+	left: 0;
+	top: 70%;
+	width: 100%;
+}
+
+.fit p {
+	margin: 5% auto 0;
+	font-size: 1.7rem;
+	display: block;
+	font-weight: 600;
+	text-align: center;
+	font-family: "Yuji Syuku";
+	font-weight: 400;
+	font-style: normal;
+	width: fit-content;
+}
+
+.fit p br {
+	display:none;
+}
+
+@media screen and (max-width: 450px) {
+	.fit p {
+		margin: 8% auto 0;
+		font-size: 1.1rem;
+		width: 90vw;
+	}
+
+	.fit p br {
+	display: block;
+}
+
+}
+
+
+.result_type1 h4, .result_type0 h4 {
+	width: 30%;
+	margin: 0 auto 2%;
+	padding: 1.5%;
+	text-align: center;
+	font-size: clamp(1.3rem, 1.6vw, 1.5rem);
+	font-weight: 600;
+	color: #ff3300;
+	border: 1px solid #ff3300;
+	text-align: center;
+	box-shadow: 0px 5px 1px #ff3300;
+	border-radius: 5px;
+}
+
+@media screen and (max-width: 450px) {
+	.result_type1 h4, .result_type0 h4 {
+		width: 80%;
+		margin-bottom: 5%;
+	}
+}
+
+.result_theme p {
+	margin-top: 5%;
+	margin-bottom: 2%;
+	text-align: center;
+	font-size: 2rem;
+}
+
+@media screen and (max-width: 450px) {
+	.result_theme p {
+		font-size: 1.7rem;
+		margin-bottom: 4%;
+	}
+}
+
+.result_discription0, .result_discription1 {
+	text-align: center;
+
+}
+
+.result_discription0 h2, .result_discription1 h2 {
+	color: #ff3300;
+	text-align: center;
+	margin-bottom: 1%;
+}
+
+@media screen and (max-width: 450px) {
+	.result_discription0 h2, .result_discription1 h2 {
+		width: 75%;
+		margin: 2% auto;
+	}
+}
+
+.result_discription0 h3, .result_discription1 h3 {
+	width: 60%;
+	margin: 0 auto 1%;
+	font-weight: 400;
+}
+
+@media screen and (max-width: 450px) {
+	.result_discription0 h3, .result_discription1 h3 {
+		width: 80%;
+		margin-bottom: 5%;
+	}
+}
+
+.result_discription0 img, .result_discription1 img {
+	width: 30%;
+	min-width: 250px;
+	margin: 0 auto 2%;
+}
+
+@media screen and (max-width: 450px) {
+	.result_discription0 img, .result_discription1 img {
+		margin-bottom: 5%;
+	}
+}
+
+.result_discription0 p, .result_discription1 p {
+	font-family: "Yuji Syuku";
+	font-weight: 400;
+	font-style: normal;
+	width: 50%;
+	margin: auto;
+	padding: 20px;
+	text-align: left;
+	border: 1px solid #ff3300;
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 35px;
+	box-shadow: 0px 5px 1px #ff3300;
+	border-radius: 5px;
+}
+
+@media screen and (max-width: 450px) {
+	.result_discription0 p, .result_discription1 p {
+		width: 80%;
+		margin-bottom: 10%;
+	}
+}
+
+.return-btn {
+	margin-top: 5%;
+	margin-left: 35%;
+	margin-right: 35%;
+	width: 30%;
+	margin-bottom: 100px;
+}
+
+@media screen and (min-height: 780px) {
+	.return-btn {
+		margin-bottom: 150px;
+	}
+}
+
+.return {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: #745399;
+	width: 100%;
+	padding: 4% 1%;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.return:hover {
+	background-color: #fff;
+	color: #ff3300;
+	transition: 0.2s ease;
+}

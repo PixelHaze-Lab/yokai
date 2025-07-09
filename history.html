@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>ひみつの妖怪通信 | 妖怪の歴史</title>
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/history.css" rel="stylesheet">
+	<link rel="icon" href="favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<div id="custom-cursor"> <img id="custom-cursor-img" src="images/mouse.png" alt="Custom Cursor">
+	</div>
+	<canvas id="blueFireCanvas">
+	</canvas>
+	<div id="container">
+		<div id="loading">
+			<div class="kvArea" id="loading_box">
+				<div class="img_box"><img src="images/loading_5.png" alt="" class="fadeUp"></div>
+			</div>
+		</div>
+		<header>
+			<div id="header_wrapper">
+				<div id="header_logo">
+					<a href="index.html"><img src="images/logo_youkai_v2.png"></a>
+				</div>
+				<nav>
+					<ul id="nav_menu">
+						<li class="nav-item"><a href="index.html">TOP</a>
+							<img src="images/hitotsumekozo2.png" alt="一つ目小僧" class="yokai yokai-hitotsume">
+						</li>
+						<li class="nav-item"><a href="history.html">妖怪の歴史</a><img src="images/nurikabe.png" alt="ぬりかべ"
+								class="yokai yokai-nurikabe"></li>
+						<li class="nav-item"><a href="map.html">全国妖怪MAP</a><img src="images/ittanmomen.png" alt="一反木綿"
+								class="yokai yokai-ittanmomen"></li>
+						<li class="nav-item"><a href="shindan.html">妖怪診断</a><img src="images/rokurokubi.png" alt="ろくろ首"
+								class="yokai yokai-rokurokubi"></li>
+					</ul>
+				</nav>
+				<div id="hamburger" class="hamburger">
+					<span></span><span></span><span></span>
+				</div>
+			</div><!--header_wrapper-->
+		</header>
+		<main>
+			<div id="article-container">
+				<article>
+					<h1>
+						<img src="images/history/history_logo.png">
+					</h1>
+					<p><span>古</span>代の日本人が自然現象や不可解な出来事を説明するために、人知を超えた存在として妖怪を生み出しました。
+						特に、自然災害や疫病など、人々の生活に大きな影響を与える現象を、神や悪霊の仕業と捉え、それが妖怪の形をとって現れたと考えられました。</p><br>
+					<p><span>妖</span>怪の最古の記録は「古事記」「日本書紀」「風土記」などにあり、ひとつ目の鬼やヤマタノオロチとして登場。また、仏教の伝来とともに、インドや中国から伝わった神話や伝説も日本の妖怪伝承に多く影響を与えたと言われています。妖怪と幽霊が区別されはじめたのは明治以降。昭和に入ると、出現する時間や場所の違いのほか、人が死後に人の属性を備えて出現するものを幽霊、それ以外のものを妖怪とする考え方が登場しました。
+					</p><br>
+					<p><span>時</span>代が下るにつれて、妖怪は社会的なメッセージを含む物語にも登場するようになりました。例えば、人々を道徳的に導くための教訓や、社会の不安を反映した話などです。これにより、妖怪は単なる恐怖の対象から、教育や風刺の手段としても用いられるようになりました。最近では2020年に蔓延したコロナウイルスの時は「アマビエ」という妖怪が流行りました。
+					</p>
+				</article>
+				<img src="images/history/yamatanoorochi.png" id="main_yokai1_img" alt="ヤマタノオロチ">
+			</div>
+			<img src="images/history/amabie.png" id="main_yokai2_img" alt="アマビエ">
+		</main>
+		<footer>
+			<p>&copy;2025 ひみつの妖怪通信</p>
+		</footer>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="js/loading.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/hmenu.js"></script>
+	<script src="js/mouse.js"></script>
+</body>
+
+</html>

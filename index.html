@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>ひみつの妖怪通信</title>
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+	<link rel="icon" href="favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<div id="custom-cursor"> <img id="custom-cursor-img" src="images/mouse.png" alt="Custom Cursor">
+	</div>
+	<canvas id="blueFireCanvas">
+	</canvas>
+	<div id="loading">
+		<div class="kvArea" id="loading_box">
+			<div class="img_box"><img src="images/loading_5.png" alt="" class="fadeUp"></div>
+		</div>
+	</div>
+	<div id="container">
+		<header>
+			<div id="header_wrapper">
+				<div id="header_logo">
+					<a href="index.html"><img src="images/logo_youkai_v2.png"></a>
+				</div>
+				<nav>
+					<ul id="nav_menu">
+						<li class="nav-item"><a href="index.html">TOP</a>
+							<img src="images/hitotsumekozo2.png" alt="一つ目小僧" class="yokai yokai-hitotsume">
+						</li>
+						<li class="nav-item"><a href="history.html">妖怪の歴史</a><img src="images/nurikabe.png" alt="ぬりかべ"
+								class="yokai yokai-nurikabe"></li>
+						<li class="nav-item"><a href="map.html">全国妖怪MAP</a><img src="images/ittanmomen.png" alt="一反木綿"
+								class="yokai yokai-ittanmomen"></li>
+						<li class="nav-item"><a href="shindan.html">妖怪診断</a><img src="images/rokurokubi.png" alt="ろくろ首"
+								class="yokai yokai-rokurokubi"></li>
+					</ul>
+				</nav>
+				<div id="hamburger" class="hamburger">
+					<span></span><span></span><span></span>
+				</div>
+			</div><!--header_wrapper-->
+		</header>
+		<main>
+			<div class="hero">
+				<video muted autoplay loop>
+					<source src="images/hero.mp4" type="video/mp4">
+					<source src="images/hero.mov" type="video/quicktime">
+					お使いのブラウザは動画タグをサポートしていません。
+				</video>
+			</div>
+
+			<div class="description">
+				<p><span>ひ</span>みつの妖怪通信は、日本全国に伝わるふしぎな「ようかい」たちを、親子でたのしく学べるポータルサイトです。</p>
+				<p>こわいけどちょっと気になる昔ばなしのようかいや、地元で語りつがれるレアようかいを、かわいいイラストやわかりやすい説明でご紹介。</p>
+				<p>地図でさがせる「全国のようかいMAP」や、質問にこたえて楽しめる「ようかいしんだん」、ようかいの歴史もまるっと学べちゃうコンテンツがもりだくさん！</p>
+				<p>ふりがなつきだから、子どもでも読みやすく、ぬ〜べ〜世代の大人にも懐かしくてたのしい♪</p>
+				<p>家ぞくみんなで、日本のふしぎに出会えるサイトです。</p>
+			</div> <!--description-->
+
+
+		</main>
+		<footer>
+			<p>&copy;2025 ひみつの妖怪通信</p>
+		</footer>
+	</div> <!--container-->
+	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+	<script src="js/loading.js"></script>
+	<script src="js/hmenu.js"></script>
+	<script src="js/mouse.js"></script>
+</body>
+
+</html>

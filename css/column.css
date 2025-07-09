@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+article {
+	width: 70vw;
+	margin: 19vh auto;
+	padding-bottom: 6%;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (min-height: 780px) {
+	article {
+		width: 85vw;
+		margin: 13vh auto;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	article {
+		width: 90vw;
+	}
+}
+
+#article_header {
+	width: 100%;
+	background-image: url(../images/map/zashikiwarashi_background.jpg);
+	background-color: rgba(0, 0, 0, 0.6);
+	background-blend-mode: overlay;
+	background-position: 0% 0%;
+	background-size: cover;
+}
+
+#article_header_contents {
+	width: 82%;
+	margin: 0 auto;
+}
+
+article h1 {
+	font-size: clamp(2.3rem, 3.5vw, 3rem);
+	font-weight: 800;
+	margin-bottom: 1%;
+	color: #ff3300;
+}
+
+article h2 {
+	font-size: 2.5rem;
+	font-weight: 600;
+	padding-top: 2%;
+}
+
+article h3 {
+	font-size: 1rem;
+	font-weight: 500;
+	padding-bottom: 3%;
+}
+
+.border_column {
+	border-top: 1px solid white;
+	margin-bottom: 3%;
+}
+
+#column_text {
+	width: 82%;
+	margin: 0 auto;
+	font-size: 1.2rem;
+	font-weight: 400;
+	text-align: justify;
+}
